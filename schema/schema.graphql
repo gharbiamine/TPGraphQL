@@ -23,10 +23,11 @@ type Query {
   infos: Infos!
   getAllStudents: [Student]
   getStudent(id: ID!): Student
+  getToDo(id: String!): ToDo
 }
 
 type ToDo {
-  id: String
+  id: String!
   name: String!
   content: String!
   status: ToDoStatus!
