@@ -49,24 +49,42 @@ export const db = {
       name: "name1",
       content: "content1",
       status: "DONE",
+      user: "1",
     },
     {
       id: "2",
       name: "name2",
       content: "content2",
       status: "WAITING",
+      user: "1",
     },
     {
       id: "3",
       name: "name3",
       content: "content3",
       status: "IN_PROGRESS",
+      user: "1",
     },
     {
       id: "4",
       name: "name4",
       content: "content4",
       status: "CANCELED",
+      user: "2",
+    },
+  ],
+  users: [
+    {
+      id: "1",
+      name: "Fatma Laribi",
+      email: "a.a@g.c",
+      todos: ["1", "2", "3"],
+    },
+    {
+      id: "2",
+      name: "Ahmed Mahfoudhi",
+      email: "b.b@g.c",
+      todos: ["4"],
     },
   ],
 };
